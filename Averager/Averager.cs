@@ -14,7 +14,7 @@ namespace TreehouseApps.Averager
             {
                 Console.WriteLine("Enter a number or type \"done\" to see the average: ");
                 prompt = Console.ReadLine();
-                if(prompt.toLower() == "done")
+                if(prompt.ToLower() == "done")
                 {
                     break;
                 }
