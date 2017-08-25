@@ -14,64 +14,92 @@ You can calculate a number raised to a power using the Math.Pow method.
 
  namespace TreehouseApps.ArithmeticCalculator
  {
-     class ArithmeticCalculator
-     {
-         static void Main()
-         {
-             while(true)
-             {
-                Console.WriteLine("Pick an operation (1-4):");
-                Console.WriteLine("1. +");
-                Console.WriteLine("2. -");
-                Console.WriteLine("3. *");
-                Console.WriteLine("4. /");
-                Console.WriteLine("5. ^");
-                Console.WriteLine("0. Exit");
-                var ans3 = Console.ReadLine();
-                int opr = int.Parse(ans3);
+    class ArithmeticCalculator
+    {
+        static void Exponential(double num1, double num2)
+        {
+            var total = Math.Pow(num1, num2);
+            Console.WriteLine("Total: " + total);
+        }
+        static void Divide(double num1, double num2)
+        {
+            var total = num1 / num2;
+            Console.WriteLine("Total: " + total);
+        }
+        static void Multiply(double num1, double num2)
+        {
+            var total = num1 * num2;
+            Console.WriteLine("Total: " + total);
+        }
+        static void Subtract(double num1, double num2)
+        {
+            var total = num1 - num2;
+            Console.WriteLine("Total: " + total);
+        }
+        static void Sum(double num1, double num2)
+        {
+            var total = num1 + num2;
+            Console.WriteLine("Total: " + total);
+        }
+        static string GetANumber()
+        {
+            Console.WriteLine("Give me a number:");
+            var input = Console.ReadLine();
+            return input;
+        }
+        static string ShowMenu()
+        {
+            Console.WriteLine("Pick an operation (1-4):");
+            Console.WriteLine("1. +");
+            Console.WriteLine("2. -");
+            Console.WriteLine("3. *");
+            Console.WriteLine("4. /");
+            Console.WriteLine("5. ^");
+            Console.WriteLine("0. Exit");
 
-                if (opr == 0)
+            var pick = Console.ReadLine();
+            return pick;
+        }
+        static void Main()
+        {
+            while (true)
+            {
+                var pick = ShowMenu();
+
+                if (pick == "0")
                 {
                     Console.WriteLine("Goodbye.");
                     break;
                 }
                 else
                 {
-                    Console.WriteLine("Give me a number.");
-                    var ans1 = Console.ReadLine();
-                    Console.WriteLine("Give me another number.");
-                    var ans2 = Console.ReadLine();
+                    var ans1 = GetANumber();
+                    var ans2 = GetANumber();
+                    var num1 = double.Parse(ans1);
+                    var num2 = double.Parse(ans2);
 
-                    double num1 = double.Parse(ans1);
-                    double num2 = double.Parse(ans2);
-                    var total = 0.0;
-                    if(opr == 1)
+                    if (pick == "1")
                     {
-                        total = num1 + num2;
-                        Console.WriteLine("Total: " + total);
+                        Sum(num1, num2);
                     }
-                    else if(opr == 2)
+                    else if (pick == "2")
                     {
-                        total = num1 - num2;
-                        Console.WriteLine("Total: " + total);
+                        Subtract(num1, num2);
                     }
-                    else if(opr == 3)
+                    else if (pick == "3")
                     {
-                        total = num1 * num2;
-                        Console.WriteLine("Total: " + total);
+                        Multiply(num1, num2);
                     }
-                    else if(opr == 4)
+                    else if (pick == "4")
                     {
-                        total = num1 / num2;
-                        Console.WriteLine("Total: " + total);
+                        Divide(num1, num2);
                     }
-                    else if(opr == 5)
+                    else if (pick == "5")
                     {
-                        total = Math.Pow(num1, num2);
-                        Console.WriteLine("Total: " + total);
+                        Exponential(num1, num2);
                     }
                 }
-             }
-         }
-     }
- }
+            }
+        }
+    }
+}
