@@ -12,7 +12,7 @@ You can calculate a number raised to a power using the Math.Pow method.
  */
  using System;
 
- namespace ArithmeticCalculator
+ namespace TreehouseApps.ArithmeticCalculator
  {
      class ArithmeticCalculator
      {
