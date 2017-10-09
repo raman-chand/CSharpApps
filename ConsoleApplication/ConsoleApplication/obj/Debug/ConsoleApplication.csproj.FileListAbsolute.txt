@@ -1,0 +1,10 @@
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.pdb
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.exe.config
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.exe
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\bin\Debug\ConsoleApplication.pdb
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.exe
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\obj\Debug\ConsoleApplication.pdb

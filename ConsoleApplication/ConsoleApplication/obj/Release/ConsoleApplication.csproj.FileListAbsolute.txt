@@ -1,0 +1,11 @@
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.exe.config
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.exe
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.pdb
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.exe
+C:\Workspace\TreehouseApps\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.pdb
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.exe.config
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.exe
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\bin\Release\ConsoleApplication.pdb
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.csprojResolveAssemblyReference.cache
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.exe
+C:\Workspace\CSharpApps\ConsoleApplication\ConsoleApplication\obj\Release\ConsoleApplication.pdb
